@@ -17,6 +17,7 @@
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
+ 
 }
 
 .h2S{
@@ -39,9 +40,16 @@ input{
   box-shadow: 0 5px 7px rgba(0,0,0,.6);
 }
 
+
+
+
+
 .tcon{
   margin-top: 15px;
+  
 }
+
+
 .todo{
   border-radius: 8px;
   border: 1px solid transparent;
@@ -57,6 +65,7 @@ input{
   height: 35px;
   background-color: transparent;
   color: white;
+  
 }
 
 .tbtn{
@@ -74,6 +83,7 @@ input{
   background-color: transparent;
   color: white;
 }
+
 
 .tresult{
   display: flex;

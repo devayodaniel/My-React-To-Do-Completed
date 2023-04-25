@@ -27,13 +27,15 @@ function App() {
         <h3 class="h2S">TODO APP</h3>
         <div clase="inputsec">
           <input ref={inputRef} onChange={todoInput} placeholder='Type To-Do' /> 
-          <button onClick={todoAdd}> ADD</button>
+          <button className='tbtn' style={{width: "60px"}} onClick={todoAdd}> ADD</button>
         </div>
+        <div className='tso'>
         <div className='tcon'> 
           {items.map((item,i) => (
           <div className='tresult'><div class='todo'>{item}</div>
-          <button className='tbtn' onClick={() => deleteItem(i)}> DEL</button>
-          <button className='tbtn'> EDIT</button></div>))}
+          <button className='tbtn'> EDIT</button> 
+          <button className='tbtn' onClick={() => deleteItem(i)}> DEL</button></div>))}
+        </div>
         </div>
       </div>
     </>
