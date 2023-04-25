@@ -46,7 +46,11 @@ input{
 
 .tcon{
   margin-top: 15px;
+<<<<<<< HEAD
   
+=======
+  overflow: scroll;
+>>>>>>> c4e1c46c9df2b2eb6eb4dd593142dc39b1422ddd
 }
 
 
