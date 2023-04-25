@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 320px;
+  height: 500PX;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background: #3c1a49;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.h2S{
+ color: white;
+}
+
+.inputsec{
+  display: flex;
+}
+
+input{
+  
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-right: 5px;
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  transition: border-color 0.25s;
+  box-sizing: border-box;
+  box-shadow: 0 5px 7px rgba(0,0,0,.6);
+}
+
+.tcon{
+  margin-top: 15px;
+}
+.todo{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-right: 5px;
+  margin-left: 14px;
+  padding: 0.2em 1em;
+  font-family: inherit;
+  transition: border-color 0.25s;
+  box-sizing: border-box;
+  box-shadow: 0 5px 7px rgba(0,0,0,.6);
+  margin-top: 12px;
+  width: 140px;
+  height: 35px;
+  background-color: transparent;
+  color: white;
+}
+
+.tbtn{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-right: 5px;
+  padding: 0.2em 1em;
+  font-family: inherit;
+  transition: border-color 0.25s;
+  box-sizing: border-box;
+  box-shadow: 0 5px 7px rgba(0,0,0,.6);
+  margin-top: 12px;
+  width: 50px;
+  height: 35px;
+  background-color: transparent;
+  color: white;
+}
+
+.tresult{
+  display: flex;
+  
+}
